@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c9d6ff;
+    background:linear-gradient(to right,#d3abab,#c9d6ff);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+ }
+ 
+ /* Form container styling */
+ form {
+   width:450px;
+   background-color: #c9d6ff;
+   padding:1.5rem;
+   margin:50px auto;
+   border-radius:10px;
+   box-shadow:0 20px 35px rgba(0,0,1,0.9); 
+ }
+ 
+ /* Form heading styling */
+ form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+ }
+ 
+ /* Label styling */
+ label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+ }
+ 
+ /* Input field styling */
+ input[type="text"],
+ input[type="email"],
+ input[type="date"],
+ input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+ }
+ 
+ /* Submit button styling */
+ input[type="submit"] {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+ }
+ 
+ input[type="submit"]:hover {
+    background-color: #4cae4c;
+ }
+ 
+ /* Message styling */
+ #message {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+ }
+ 
+ /* Responsive design */
+ @media (max-width: 600px) {
+    form {
+        padding: 15px;
+    }
+ 
+    input[type="text"],
+    input[type="email"],
+    input[type="date"],
+    input[type="submit"] {
+        font-size: 14px;
+        padding: 8px;
+    }
+ }
+ 
+     
